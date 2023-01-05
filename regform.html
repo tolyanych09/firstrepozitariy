@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REgForm</title>
+</head>
+<style>
+  @media screen AND (min-width: 900px){
+    #a1 {
+      position: absolute;
+      font-family: sans-serif;
+      left: 20px;
+    }
+
+    #username {
+      border: none;
+      border-bottom: solid 1px black;
+      position: absolute;
+      left: 40px;
+      top: 40px;
+      width: 350px;
+    }
+
+   #email {
+      border: none;
+      border-bottom:solid 1px black;
+      position: absolute;
+      left: 40px;
+      top: 100px;
+      width: 350px;
+    }
+
+    #password {
+      border: none;
+      border-bottom: solid 1px black;
+      position: absolute;
+      left: 40px;
+      top: 160px;
+    }
+
+    #confirm {
+      border: none;
+      border-bottom:solid 1px black;
+      position: absolute;
+      left: 230px;
+      top: 160px;
+    }
+
+    #img1 {
+      position: absolute;
+      left: 20px;
+      top: 40px;
+    }
+
+    #img2 {
+      position: absolute;
+      left: 20px;
+      top: 100px;
+    }
+
+    #img3 {
+      position: absolute;
+      left: 20px;
+      top: 160px;
+    }
+
+    #fname {
+      border: none;
+      border-bottom:solid 1px black;
+      position: absolute;
+      left: 440px;
+      top: 40px;
+      width: 250px;
+    }
+
+    #lname {
+      border: none;
+      border-bottom: solid 1px black;
+      position: absolute;
+      left: 710px;
+      top: 40px;
+      width: 250px;
+    }
+
+    #male {
+      border: none;
+      border-bottom: solid 1px black;
+      position: absolute;
+      left: 440px;
+      top: 100px;
+      width: 250px;
+    }
+
+    #date {
+      border: none;
+      border-bottom: solid 1px black;
+      position: absolute;
+      left: 710px;
+      top: 100px;
+      width: 250px;
+    }
+
+    #a2 {
+      font-family: sans-serif;
+      position: absolute;
+      left: 440px;
+    }
+
+    #ch1 {
+      position: absolute;
+      left: 20px;
+      top: 200px;
+    }
+
+    #ch2 {
+      position: absolute;
+      left: 20px;
+      top: 220px;
+    }
+
+    .a3 {
+      position: absolute;
+      left: 40px;
+      top: 200px;
+    }
+
+    .a4 {
+      position: absolute;
+      left: 40px;
+      top: 220px;
+    }
+
+    #submit {
+      position: absolute;
+      left: 820px;
+      top: 300px;
+      width: 70px;
+      height: 30px;
+      background: darkslategrey;
+    }
+    }
+    @media screen AND(max-width:900px){
+
+       #a1 {
+         position: absolute;
+         font-family: sans-serif;
+         left: 20px;
+       }
+
+       #username {
+         border: none;
+         border-bottom: solid 1px black;
+         position: absolute;
+         left: 40px;
+         top: 40px;
+         width: 500px;
+       }
+
+       #email {
+         border: none;
+         border-bottom: solid 1px black;
+         position: absolute;
+         left: 40px;
+         top: 100px;
+         width: 500px;
+       }
+
+       #password {
+         border: none;
+         border-bottom: solid 1px black;
+         position: absolute;
+         left: 40px;
+         top: 160px;
+         width: 200px;
+       }
+
+       #confirm {
+         border: none;
+         border-bottom: solid 1px black;
+         left: 230px;
+         top: 160px;
+         width: 200px;
+       }
+
+       #img1 {
+         position: absolute;
+         left: 20px;
+         top: 40px;
+       }
+
+       #img2 {
+         position: absolute;
+         left: 20px;
+         top: 100px;
+       }
+
+       #img3 {
+         position: absolute;
+         left: 20px;
+         top: 160px;
+       }
+
+       #fname {
+         border: none;
+         border-bottom: solid 1px black;
+         left: 40px;
+         top: 240px;
+         width: 200px;
+       }
+
+       #lname {
+         border: none;
+         border-bottom: solid 1px black;
+         position: absolute;
+         left: 40px;
+         top: 240px;
+         width: 200px;
+       }
+
+       #male {
+         border: none;
+         border-bottom: solid 1px black;
+         position: absolute;
+         left: 40px;
+         top: 100px;
+         width: 250px
+       }
+
+       #date {
+         border-top: black;
+         border-left: black;
+         border-right: black;
+         position: absolute;
+         left: 710px;
+         top: 100px;
+         width: 250px;
+       }
+
+       #a2 {
+         font-family: sans-serif;
+         position: absolute;
+         left: 440px;
+       }
+
+       #ch1 {
+         position: absolute;
+         left: 20px;
+         top: 200px;
+       }
+
+       #ch2 {
+         position: absolute;
+         left: 20px;
+         top: 220px;
+       }
+
+       .a3 {
+         position: absolute;
+         left: 40px;
+         top: 200px;
+       }
+
+       .a4 {
+         position: absolute;
+         left: 40px;
+         top: 220px;
+       }
+
+       #submit {
+         position: absolute;
+         right: 20px;
+         bottom: 50px;
+       }
+       }
+  @media screen AND(max-width:600px) {
+
+       #a1 {
+         position: absolute;
+         font-family: sans-serif;
+         left: 20px;
+       }
+
+       #username {
+         border: none;
+         border-bottom: solid 1px black;
+         position: absolute;
+         left: 40px;
+         top: 40px;
+         width: 500px;
+       }
+
+       #email {
+         border: none;
+         border-bottom: solid 1px black;
+         position: absolute;
+         left: 40px;
+         top: 100px;
+         width: 500px;
+       }
+
+       #password {
+         border: none;
+         border-bottom: solid 1px black;
+         position: absolute;
+         left: 40px;
+         top: 160px;
+         width: 200px;
+       }
+
+       #confirm {
+         border: none;
+         border-bottom: solid 1px black;
+         left: 230px;
+         top: 160px;
+         width: 200px;
+       }
+
+       #img1 {
+         position: absolute;
+         left: 20px;
+         top: 40px;
+       }
+
+       #img2 {
+         position: absolute;
+         left: 20px;
+         top: 100px;
+       }
+
+       #img3 {
+         position: absolute;
+         left: 20px;
+         top: 160px;
+       }
+
+       #fname {
+         border: none;
+         border-bottom: solid 1px black;
+         left: 40px;
+         top: 240px;
+         width: 200px;
+       }
+
+       #lname {
+         border: none;
+         border-bottom: solid 1px black;
+         position: absolute;
+         left: 40px;
+         top: 240px;
+         width: 200px;
+       }
+
+       #male {
+         border: none;
+         border-bottom: solid 1px black;
+         position: absolute;
+         left: 40px;
+         top: 100px;
+         width: 250px
+       }
+
+       #date {
+         border-top: black;
+         border-left: black;
+         border-right: black;
+         position: absolute;
+         left: 710px;
+         top: 100px;
+         width: 250px;
+       }
+
+       #a2 {
+         font-family: sans-serif;
+         position: absolute;
+         left: 440px;
+       }
+
+       #ch1 {
+         position: absolute;
+         left: 20px;
+         top: 200px;
+       }
+
+       #ch2 {
+         position: absolute;
+         left: 20px;
+         top: 220px;
+       }
+
+       .a3 {
+         position: absolute;
+         left: 40px;
+         top: 200px;
+       }
+
+       .a4 {
+         position: absolute;
+         left: 40px;
+         top: 220px;
+       }
+
+       #submit {
+         position: absolute;
+         right: 20px;
+         bottom: 50px;
+       }
+}
+</style>
+<body>
+<form>
+  <legend id="a1">Registration form</legend>
+  <label>
+    <img id="img1" src="username.png" width="18" height="18"/> <input id="username" value="Username" type="text">
+  </label>
+  <label>
+    <img id="img2" src="email.png" height="18" width="18"/> <input id="email" value="Email address" type="email">
+  </label>
+  <label>
+    <img id="img3" src="pswd.png" width="18" height="18"/> <input id="password" value="Password" type="text">
+  </label>
+  <label>
+    <input id="confirm" value="Confirm password" type="text">
+  </label>
+</form>
+<form>
+  <legend id="a2">Personal details</legend>
+    <label><input id="fname" type="text" value="First name"></label>
+    <label><input id="lname" type="text" value="Last name"></label>
+    <label><input id="male" type="text" value="Male"></label>
+    <label><input id="date" type="date"></label>
+</form>
+<form>
+<label><input id="ch1"  type="checkbox"><a class="a3">I want to receive news and special offers</a></label>
+<label><input id="ch2" type="checkbox"><a class="a4">I agree with the Terms and Conditions</a></label>
+</form>
+<label><input id="submit" type="submit" value="SUBMIT"> </label>
+</body>
+</html>
+

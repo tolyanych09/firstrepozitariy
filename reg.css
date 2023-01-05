@@ -1,0 +1,94 @@
+  #a1 {
+    position: absolute;
+    font-family: sans-serif;
+    left: 20px;
+  }
+  #username {
+    border-top: black;
+    border-left: black;
+    border-right: black;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    width: 350px;
+    height: 20px;
+  }
+  #email {
+    border-top: black;
+    border-left: black;
+    border-right: black;
+    position: absolute;
+    left: 40px;
+    top: 100px;
+    width: 350px;
+    height: 20px;
+  }
+  #password {
+    border-top: black;
+    border-left: black;
+    border-right: black;
+    position: absolute;
+    left: 40px;
+    top: 160px;
+  }
+  #confirm {
+    border-top: black;
+    border-left: black;
+    border-right: black;
+    position: absolute;
+    left: 230px;
+    top: 160px;
+  }
+  #img1 {
+    position: absolute;
+    left: 20px;
+    top: 40px;
+  }
+  #img2 {
+    position: absolute;
+    left: 20px;
+    top: 100px;
+  }
+  #img3 {
+    position: absolute;
+    left: 20px;
+    top: 160px;
+  }
+  #fname {
+    border-top: black;
+    border-left: black;
+    border-right: black;
+    position: absolute;
+    left: 440px;
+    top: 40px;
+    width: 350px;
+    height: 20px;
+  }
+  #lname {
+    border-top: black;
+    border-left: black;
+    border-right: black;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    width: 350px;
+    height: 20px;
+  }
+  #male {
+    border-top: black;
+    border-left: black;
+    border-right: black;
+    position: absolute;
+    left: 40px;
+    top: 100px;
+    width: 350px;
+    height: 20px;
+  }
+  #date {
+    border-top: black;
+    border-left: black;
+    border-right: black;
+    position: absolute;
+    left: 230px;
+    top: 160px;
+  }

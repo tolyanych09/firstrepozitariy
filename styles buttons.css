@@ -1,0 +1,62 @@
+.button1 {
+  width: 250px;
+  height: 25px;
+
+}
+.button2 {
+  width: 250px;
+  height: 25px;
+     background-image: url("valid.png");
+     background-repeat: no-repeat;
+     background-position: 4px;
+     background-size: 24px 24px;
+     background-position-x: right;
+   }
+.button3 {
+  width: 250px;
+  height: 25px;
+  background-image: url("invalid.png");
+  background-repeat: no-repeat;
+  background-position: 4px;
+  background-size: 24px 24px;
+  background-position-x: right;
+  border: 1px solid red;
+}
+#a {
+  width: 90px;
+  height: 40px;
+  background: limegreen;
+  border-radius: 3px;
+}
+#b {
+  width: 90px;
+  height: 40px;
+  background: green;
+  border-radius: 5px;
+}
+#c {
+  width: 90px;
+  height: 40px;
+  background: deeppink;
+  border-radius: 5px;
+}
+#d {
+  width: 90px;
+  height: 40px;
+  background: darkred;
+  border-radius: 5px;
+}
+#e {
+  width: 90px;
+  height: 40px;
+  background: dimgrey;
+  border-radius: 5px;
+}
+#f {
+  border-radius: 50%;
+  background: limegreen;
+}
+#g {
+  border-radius: 50%;
+  background: deeppink;
+}
